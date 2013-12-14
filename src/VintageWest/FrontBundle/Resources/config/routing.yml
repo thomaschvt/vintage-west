@@ -1,0 +1,23 @@
+homepage:
+    pattern:  /accueil
+    defaults: { _controller: VintageWestFrontBundle:Default:index }
+cars_create:
+    pattern:  /cars/create
+    defaults: { _controller: VintageWestFrontBundle:Cars:create }
+cars:
+    pattern:  /cars
+    defaults: { _controller: VintageWestFrontBundle:Cars:index }
+cars_show:
+    pattern:  /cars/{id}
+    defaults: { _controller: VintageWestFrontBundle:Cars:show }
+cars_edit:
+    pattern:  /cars/edit/{id}
+    defaults: { _controller: VintageWestFrontBundle:Cars:edit }
+cars_delete:
+    pattern:  /cars/delete/{id}
+    defaults: { _controller: VintageWestFrontBundle:Cars:delete }
+cars_update:
+    pattern:  /cars/update/{id}
+    defaults: { _controller: VintageWestFrontBundle:Cars:update }
+
+
